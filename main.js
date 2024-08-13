@@ -26,7 +26,7 @@ buttons.addEventListener("click", function (event) {
     const data = event.target.getAttribute("data-");
     console.log(data);
 
-    document.querySelector(`block-content--${data}`).
+    document.querySelector(`.block-content--${data}`).
     classList.remove("hidden");
 });
 
